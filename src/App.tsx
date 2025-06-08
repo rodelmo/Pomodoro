@@ -217,7 +217,7 @@ function App() {
           </h1>
           <button
             onClick={openSettings}
-            className="absolute top-[3px] right-[3px] bg-white/10 hover:bg-white/20 transition-all duration-200 p-2 rounded-full backdrop-blur-sm border border-white/20"
+            className="absolute top-[3px] right-[-1px] bg-white/10 hover:bg-white/20 transition-all duration-200 p-2 rounded-full backdrop-blur-sm border border-white/20"
             aria-label="Settings"
           >
             <Settings className="w-5 h-5" />

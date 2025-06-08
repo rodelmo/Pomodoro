@@ -9,6 +9,8 @@
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
+  /* Temporary: beautiful gradient background until you add your image */
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   background: url('/background.jpg') center center/cover no-repeat fixed;
   background-color: #2d3748; /* fallback color */
   min-height: 100vh;
