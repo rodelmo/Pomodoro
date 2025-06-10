@@ -1,6 +1,6 @@
 {
   "name": "pomodoro-timer",
-  "homepage": "https://rodelmo.github.io/Pomodoro/",
+  "homepage": "https://rodelmo.github.io/Pomodoro/dist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy:gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "lucide-react": "^0.294.0",
