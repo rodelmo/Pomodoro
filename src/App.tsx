@@ -102,7 +102,7 @@ function App() {
   const [sessions, setSessions] = useState(0)
   const [showSettings, setShowSettings] = useState(false)
   const intervalRef = useRef<number | null>(null)
-  const audioRef = useRef<HTMLAudioElement | null>(null)
+  // const audioRef = useRef<HTMLAudioElement | null>(null)
 
   // Customizable durations (in minutes)
   const [workDuration, setWorkDuration] = useState(25)
